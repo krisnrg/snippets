@@ -1,0 +1,3 @@
+// Megento quote code
+
+Subtotal <?php $price=Mage::helper('checkout/cart')->getQuote()->getSubtotal(); echo $formatted = Mage::helper('core')->currency($price, true, false); ?>
